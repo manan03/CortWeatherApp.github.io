@@ -189,7 +189,7 @@ h1,h3 {
     }
 }
 
-/*  @media screen and (min-width: 600px) and (max-width: 683px) {
+ @media screen and (min-width: 600px) and (max-width: 683px) {
     .container{
         font-size: 13.9px;
         transition: 1s;
@@ -220,18 +220,18 @@ h1,h3 {
         font-size: 5px;
         transition: 1s;
     } 
-} */
+}
 @media screen and (min-width:  800px) and (max-width: 993px) {
     .container{
         font-size: 12.6px;
         transition: 1s;
     } 
 }
-/* @media screen and (min-width: 220px) and (max-width: 250px) {
+ @media screen and (min-width: 220px) and (max-width: 250px) {
     .container{
         font-size: 4.3px;
         transition: 1s;
     } 
 }
- */
+ 
  
