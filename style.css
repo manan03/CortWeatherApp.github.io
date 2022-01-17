@@ -188,18 +188,12 @@ h1,h3 {
         min-height: 40em;
     }
 }
- 
 
-/* .searchButton{
-    /* border: 2px solid red; */
-    /* display: block; */
-    /* position: absolute;
-    top: 0;
-    right: 0;
-    width: 29%;
-    height: 13%;
-      */
+@media screen and (max-width: 683px) {
+    .container{
+        font-size: 6px;
+    }
+    
+}
 
-    /* align-items: center; 
-} */
  
