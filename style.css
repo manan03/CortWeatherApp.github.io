@@ -189,11 +189,44 @@ h1,h3 {
     }
 }
 
-@media screen and (max-width: 683px) {
+ @media screen and (min-width: 600px) and (max-width: 683px) {
     .container{
-        font-size: 6px;
-    }
-    
+        font-size: 13.9px;
+        transition: 1s;
+    } 
 }
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .container{
+        font-size: 11.29px;
+        transition: 1s;
+    } 
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .container{
+        font-size: 8.8px;
+        transition: 1s;
+    } 
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .container{
+        font-size: 6.32px;
+        transition: 1s;
+    } 
+}
+@media screen and (min-width: 250px) and (max-width: 300px) {
+    .container{
+        font-size: 5px;
+        transition: 1s;
+    } 
+}
+@media screen and (min-width:  800px) and (max-width: 993px) {
+    .container{
+        font-size: 12.6px;
+        transition: 1s;
+    } 
+}
+
 
  
