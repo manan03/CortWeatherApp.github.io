@@ -7,7 +7,9 @@ I have added several background and icons ,depending on the weather condition . 
 
 # A Glimpse of UI
 
-![nightClear](https://user-images.githubusercontent.com/83576753/149818523-9fdd3f84-d3d2-4fef-bf2f-1e8a123cb505.png)
+ 
+![udaipur](https://user-images.githubusercontent.com/83576753/149818912-1037291d-a34f-4eed-ad78-ec2ccb8589a6.png)
+ 
  
 
 ![cloudy day](https://user-images.githubusercontent.com/83576753/149818368-be5c4d09-2e12-4c15-8426-74cd10f9aca0.png)
