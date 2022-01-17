@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="main.js"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bakbak+One&family=Bebas+Neue&family=Libre+Baskerville:wght@700&family=Lobster&family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bakbak+One&family=Bebas+Neue&family=Lobster&family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bebas+Neue&family=Lobster&family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand">Manan Parihar</h3>
+            <div>
+                <h1 class="temp">16&#176;</h1>
+                <div class="city-time">
+                    <h1 class="name">London</h1>
+                    <small>
+                        <span class="time">06:08</span>
+                        -
+                        <span class="date">Monday Jan 14</span>
+                    </small>
+                </div>
+                <div class="weather">
+                    <img src="./weather/day/113.png" alt="icon" class="icon" width="50" height="50" />
+                    <span class="condition">Cloudy</span>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <form id="locationInput">
+                <input type="text" class="search" placeholder="Search Location.." >
+                <button  type="submit" class="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+                <!-- <div class="searchButton">
+                    Search
+                    <img src="search.png" alt="srch">
+                </div> -->
+            </form>
+            <ul class="cities">
+                <li class="city">Bhilwara</li>
+                <li class="city">Jodhpur</li>
+                <li class="city">Udaipur</li>
+                <li class="city">Guwahati</li>
+            </ul>
+            <ul class="weather-details">
+                <h4>Weather Details</h4>
+                <li class="detail">
+                    <span>Cloudy</span>
+                    <span class="cloud">89%</span>
+                </li>
+                <li class="detail">
+                    <span>Humidity</span>
+                    <span class="humidity">62%</span>
+                </li>
+                <li class="detail">
+                    <span>Wind</span>
+                    <span class="wind">8km/h</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+<script src="main.js">
+</script>
+</html>
