@@ -21,13 +21,9 @@ const details = document.querySelector('.detail');
 
 // DEFAULT CITY WHEN THE PAGE LOAD 
 let cityInput = "Bhilwara";
-// let CITY = ["B"]
+ 
 // ADD CLICK EVENTS TO EACH CITY IN THE PANEL
-// cities.foreach((city) => {
-    
-    
-// })
-
+ 
 cities.addEventListener('click', (e) => {
    
     console.log("console");
@@ -40,13 +36,7 @@ cities.addEventListener('click', (e) => {
     
 
    });
-// cities.forEach((city) => {
-//     city.addEventListener('click',(e) => {
-//         cityInput = e.target.innerHTML;
-//         fetchWeatherData();
-//         app.style.opacity = "0";
-//     })
-// });
+ 
 
 // ADD SUBMIT EVENT TO THE ForM
 form.addEventListener('submit',(e) => {
@@ -78,15 +68,9 @@ form.addEventListener('submit',(e) => {
 });
 
 // FUNCTION THAT RETURNS A DAY OF THE WEEK FROM A DATAE 
-function dayOfTheWeek(day, month , year){
-const weekday = [
-    "Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"
-];
-    return weekday[new Date(`${day}/${month}/${year}`).getDay()];
-};
 
 function myDate(d,m,y) {
-    var a = new Date(d,m,y);
+    var a = new Date(y,m-1,d);
     var weekdays = new Array(7);
     weekdays[0] = "Sunday";
     weekdays[1] = "Monday";
@@ -102,8 +86,6 @@ function myDate(d,m,y) {
 var out = myDate(16,01,2022);
 console.log(out);
 
-// var out = dayOfTheWeek(16,01,2022);
-// console.log(out);
 // FUNCTION THAT FETCHES AND DISPLAYS THE DATA FROM THE WEATHER APP
 function fetchWeatherData(){
 
