@@ -1,4 +1,4 @@
-body{
+ body{
     margin: 0;
     background:  black;
 }
@@ -176,12 +176,20 @@ h1,h3 {
         top: initial;
         overflow-x: scroll;
     }
+    .container > div{
+        width: inherit;
+    }
+    .temp{
+        font-size: 9.4em;
+    }
+   
 }
 
 @media screen and (max-width: 500px) {
     html{
         font-size: 12px;
     }
+   
 }
 @media screen and (max-height: 300px) {
     .weather-app{
@@ -189,7 +197,7 @@ h1,h3 {
     }
 }
 
- @media screen and (min-width: 600px) and (max-width: 683px) {
+@media screen and (min-width: 600px) and (max-width: 683px) {
     .container{
         font-size: 13.9px;
         transition: 1s;
@@ -209,13 +217,13 @@ h1,h3 {
         transition: 1s;
     } 
 }
-@media screen and (min-width: 300px) and (max-width: 400px) {
+@media screen and (min-width: 305px) and (max-width: 400px) {
     .container{
         font-size: 6.32px;
         transition: 1s;
     } 
 }
-@media screen and (min-width: 250px) and (max-width: 300px) {
+@media screen and (min-width: 250px) and (max-width: 305px) {
     .container{
         font-size: 5px;
         transition: 1s;
@@ -227,11 +235,11 @@ h1,h3 {
         transition: 1s;
     } 
 }
- @media screen and (min-width: 220px) and (max-width: 250px) {
+
+ 
+@media screen and (min-width: 220px) and (max-width: 250px) {
     .container{
         font-size: 4.3px;
         transition: 1s;
     } 
 }
- 
- 
